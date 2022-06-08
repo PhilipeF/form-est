@@ -33,7 +33,7 @@ body {
     color: lightblue;
 }
 
-.btn {
+.btn-submit {
     cursor: pointer;
     display: inline-block;
     width: 100%;
