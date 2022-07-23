@@ -34,6 +34,8 @@ body {
 }
 
 .btn-submit {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     display: inline-block;
     width: 100%;
@@ -43,6 +45,13 @@ body {
     font-size: 16px;
     border: 0;
     border-radius: 5px;
+
+    transition: 0.2s;
+
+}
+
+.btn-submit:hover {
+    background-color:  rgb(154, 199, 214);
 }
 
 .btn:focus {
@@ -64,7 +73,7 @@ body {
     border: 0;
     border-bottom: 2px #fff solid;
     display: block;
-    width: 150px 0;
+    width: 100% ;
     padding: 15px 0;
     font-size: 18px;
     color: #fff;    
